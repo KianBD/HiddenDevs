@@ -1,6 +1,6 @@
 # MoveGuard: server-side movement anti-cheat for Roblox
 
-`MoveGuard.luau` is the movement anti-cheat from **Breachpoint**, a 5v5 tactical shooter on Roblox.
+`MoveGuard.luau` is the movement anti-cheat from **Breachpoint**, a 5v5 tactical shooter on Roblox. I have been working on the systems seen in Breachpoint since May 2026, and so anything seen in Breachpoint is a combination of a number of systems I have created myself for separate projects. 
 
 Roblox lets each client simulate its own character, so an exploited client can speed hack, teleport or walk through walls. MoveGuard is the server's check on that. It runs about 10 times a second per player and watches every human player's root part. It does this without trusting the client, and without punishing players for lag or for the game's own movement mechanics.
 
